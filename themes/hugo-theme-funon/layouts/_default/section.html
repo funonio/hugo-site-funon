@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<br/>
+<br/>
+<br/>
+{{ if eq .Title "Services" }}
+  {{ partial "home/services.html" . }}
+{{ end }}
+{{ if eq .Title "Features" }}
+  {{ partial "home/features.html" . }}
+{{ end }}
+{{ if eq .Title "Download" }}
+  {{ partial "home/cta.html" . }}
+{{ end }}
+{{ if eq .Title "Community" }}
+  {{ partial "home/faq.html" . }}
+{{ end }}
+{{ if eq .Title "Abouts" }}
+  {{ partial "home/about.html" . }}
+{{ end }}
+
+{{ end }}

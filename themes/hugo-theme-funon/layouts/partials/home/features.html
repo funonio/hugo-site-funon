@@ -1,0 +1,53 @@
+<!-- Features Section - Home Page -->
+<section id="features" class="features">
+    <!--  Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <p>Whether you're a viewer or a creator, we strive to create a short-drama community blending creativity</p>
+    </div><!-- End Section Title -->
+    <div class="container">
+        <div class="row gy-4 align-items-center features-item">
+            <div class="col-lg-5 order-2 order-lg-1 align-items-center" data-aos="fade-up" data-aos-delay="200">
+                <h3>About Our Streaming App Service</h3>
+                <p>
+                    Our streaming app is dedicated to offering a fresh and captivating experience 
+                    in short-form content. 
+                </p>
+                <a href="#" class="btn btn-get-started">Get Started</a>
+            </div>
+            <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="400">
+                <div class="image-stack">
+                    {{ with resources.Get "img/features/features-front.png" }}
+                        <img src="{{ .RelPermalink }}" alt="" class="stack-front" data-aos="fade-up" data-aos-delay="600">
+                    {{ end }}
+                    {{ with resources.Get "img/features/features-middle.png" }}
+                        <img src="{{ .RelPermalink }}" alt="" class="stack-middle" data-aos="fade-up" data-aos-delay="400">
+                    {{ end }}
+                    {{ with resources.Get "img/features/features-back.png" }}
+                        <img src="{{ .RelPermalink }}" alt="" class="stack-back" data-aos="fade-up" data-aos-delay="200">
+                    {{ end }}
+                </div>
+            </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+            <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
+                {{ with resources.Get "img/features/features-funon.jpg" }}
+                    <img src="{{ .RelPermalink }}" alt="" class="img-fluid" alt="">
+                {{ end }}
+            </div>
+            <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+                <h3>About Our Creator Platform Service</h3>
+                <p>Our creator platform aims to provide a stage for imaginative minds to showcase 
+                    and share their creations.</p>
+                <ul>
+                    <li><i class="bi bi-check"></i> <span>Create and distribute micro-short dramas with ease.</span></li>
+                    <li><i class="bi bi-check"></i> <span>Promote your work to a wide audience and generate revenue.</span></li>
+                    <li><i class="bi bi-check"></i><span>Get access to professional guidance and tools to help you create 
+                        high-quality micro-short dramas. </span></li>
+                </ul>
+                <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+            </div>
+        </div><!-- Features Item -->
+    </div>
+</section><!-- End Features Section -->

@@ -1,0 +1,19 @@
+<!-- Call-to-action Section - Home Page -->
+<section id="call-to-action" class="call-to-action">
+    {{ with resources.Get "img/cta-bg.jpg" }}
+        <img src="{{ .RelPermalink }}" alt="">
+    {{ end }}
+
+    <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-10">
+                <div class="text-center">
+                    <h3>Call To Action</h3>
+                    <p>Come and join us. You are not only the video watcher but also the contributor
+                         to the whole ecosystem.</p>
+                    <a class="cta-btn" href="#">Get Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Call-to-action Section -->

@@ -1,0 +1,23 @@
+<!-- Hero Section - Home Page -->
+<section id="hero" class="hero">
+    {{ with resources.Get "img/hero-bg.jpg" }}
+    <img src="{{ .RelPermalink }}" alt="" data-aos="fade-in">
+    {{ end }}
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <h2 data-aos="fade-up" data-aos-delay="200">Welcome to Funon,</h2>
+                <p data-aos="fade-up" data-aos-delay="400">Your fantastic home for amazing dramas, playlets and short videos.</p>
+                <p data-aos="fade-up" data-aos-delay="600">Come and join us. You are not only the video watcher but also the contributor to the whole ecosystem.</p>
+            </div>
+            <div class="col-lg-5">
+                <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="800">
+                    <input type="text" class="form-control" placeholder="Enter email address">
+                    <input type="submit" class="btn btn-primary" value="Join US">
+                </form>
+            </div>
+        </div>
+    </div>
+</section><!-- End Hero Section -->

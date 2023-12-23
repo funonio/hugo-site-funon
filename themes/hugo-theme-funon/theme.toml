@@ -1,0 +1,15 @@
+name = 'hugo-theme-funon'
+license = 'MIT'
+licenselink = 'https://github.com/owner/repo/LICENSE'
+description = 'funon.xyz'
+
+homepage = 'https://funon.xyz'
+demosite = 'https://funon.xyz'
+
+# Taxonomy terms
+tags = ['blog', 'company']
+features = ['some', 'awesome', 'features']
+
+[author]
+  name = 'Mob'
+  homepage = 'https://funon.xyz'
