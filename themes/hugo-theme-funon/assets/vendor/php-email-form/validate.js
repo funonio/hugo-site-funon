@@ -17,7 +17,7 @@
         displayError("email must not null !!");
         return;
       }
-      displaySuccess(email + 'has been recorded');
+      displaySuccess(email + ' has been recorded !!');
     });
   });
 
