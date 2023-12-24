@@ -1016,7 +1016,7 @@ section {
 
 .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
 .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
-  margin-top: -40px;
+  margin-top: 0px;
 }
 
 @media (max-width: 768px) {
@@ -1756,11 +1756,13 @@ section {
   margin: 10px;
   border: 2px solid var(--contrast-color);
   color: var(--contrast-color);
+
+  background: var(--primary-color);
 }
 
 .call-to-action .cta-btn:hover {
-  background: var(--primary-color);
-  border: 2px solid var(--primary-color);
+  background: var(--success-color);
+  border: 2px solid var(--secondary-color);
 }
 
 /* Testimonials Section - Home Page

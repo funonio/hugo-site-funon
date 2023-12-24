@@ -14,10 +14,16 @@ Renders a menu for the given menu ID.
   <nav id="navmenu" class="navmenu">
     <ul>
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+
+
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#features">Features</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#call-to-action">Community</a></li>
     </ul>
     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
   </nav>
-  <a class="btn-getstarted" href="download">Downloads</a>
+  <a class="btn-getstarted" href="index.html#call-to-action">Downloads</a>
 {{- end }}
 
 {{- define "partials/inline/menu/walk.html" }}

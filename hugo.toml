@@ -10,22 +10,22 @@ theme = 'hugo-theme-funon'
     name = 'Home'
     pageRef = '/'
     weight = 10
-[[menu.main]]
-    name = 'Services'
-    pageRef = '/services'
-    weight = 20
-[[menu.main]]
-    name = 'Features'
-    pageRef = '/features'
-    weight = 30
-[[menu.main]]
-    name = 'About'
-    pageRef = '/about'
-    weight = 40
-[[menu.main]]
-    name = 'Community'
-    pageRef = '/community'
-    weight = 50
+# [[menu.main]]
+#     pageRef = '/services'
+#     weight = 20
+# [[menu.main]]
+#     name = 'Features'
+#     pageRef = '/features'
+#     weight = 30
+# [[menu.main]]
+#     name = 'About'
+#     pageRef = '/about'
+#     weight = 40
+# [[menu.main]]
+#     name = 'Community'
+#     weight = 50
+#     pageRef = '/community'
+#     name = 'Services'
 
 [[menu.footer]]
     name = 'Legal'
